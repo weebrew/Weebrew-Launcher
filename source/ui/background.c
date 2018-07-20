@@ -157,7 +157,7 @@ void backgroundDrawTop(float iod)
 	// Clear screen
 	drawingSetZ(1.0f);
 	drawingEnableDepth(false);
-	drawingWithColor(0xFFFF8400);
+	drawingWithColor(0xffaafd9f);
 	drawingDrawQuad(0.0f, 0.0f, 400.0f, 240.0f);
 	drawingEnableDepth(true);
 
@@ -192,7 +192,7 @@ void backgroundDrawBot(void)
 	// Clear screen
 	drawingSetZ(0.8f);
 	drawingEnableDepth(false);
-	drawingWithColor(0xFFFFA342);
+	drawingWithColor(0xffaafd9f);
 	drawingDrawQuad(0.0f, 0.0f, 320.0f, 240.0f);
 	drawingSubmitPrim(GPU_TRIANGLE_STRIP, 4);
 	drawingEnableDepth(true);
